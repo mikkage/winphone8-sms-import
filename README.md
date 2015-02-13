@@ -31,7 +31,7 @@ Limitations
 --
 * This tool does NOT import group texts.
 * When importing messages sent via iMessage, messages to/from any iMessage account that isn't a phone number will remain the same.
-For example, any messages to/from iMessage account foo@bar.com will retain the same name after being imported, and will not be useful for anything
+For example, any messages to/from iMessage account `foo@bar.com` will retain the same name after being imported, and will not be useful for anything
 but archival purposes since you won't be able to send to or receive from that account on your Windows Phone.
 * Some special characters are not accounted for. While `&amp;` is correctly converted to `&`, other special characters are not caught.
 If you need to overwrite some other special characters, feel free to modify the source code.
